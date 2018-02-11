@@ -1,7 +1,8 @@
+print("This program will tell you how many basic lands to run of each type.")
+
 # First ask the player questions to determine deck parameters.
 print("How many basic lands do you want to run?")
 basics = int(input())
-print("This program will tell you how many basic lands to run of each type.")
 print("How many White symbols are in your deck?")
 whites = int(input())
 print("How many Blue symbols are in your deck?")
@@ -39,4 +40,4 @@ if basics - landtotal < 0:
     print(f"remove {landtotal - basics} land from a pile.")
 print()
 print("Program made by Erect Pineapple.")
-input() # Just makes it so that if run on command prompt does not close before results can be read. 
+input() # Just makes it so that if run on command prompt does not close before results can be read.
