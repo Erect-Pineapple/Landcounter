@@ -15,11 +15,11 @@ print("How many basic lands are you running?")
 basics = int(input())
 total = whites + blues + reds + blacks + greens
 
-plainsnum = (whites / total) * basics
-islandsnum = (blues / total) * basics
-swampsnum = (blacks / total) * basics
-mountainsnum = (reds / total) * basics
-forestsnum = (greens / total) * basics
+plainsnum = round((whites / total) * basics)
+islandsnum = round((blues / total) * basics)
+swampsnum = round((blacks / total) * basics)
+mountainsnum = round((reds / total) * basics)
+forestsnum = round((greens / total) * basics)
 
 print(f"Since you are running {basics} basic lands, you will need:")
 print(f"Plains: {plainsnum}")
