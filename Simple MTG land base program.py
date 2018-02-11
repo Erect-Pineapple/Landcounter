@@ -27,3 +27,5 @@ print(f"Islands: {islandsnum}")
 print(f"Swamps: {swampsnum}")
 print(f"Mountains: {mountainsnum}")
 print(f"Forests: {forestsnum}")
+
+input()
