@@ -21,7 +21,7 @@ swampsnum = (blacks / total) * basics
 mountainsnum = (reds / total) * basics
 forestsnum = (greens / total) * basics
 
-print(f"Since you are running {total} basic lands, you will need:")
+print(f"Since you are running {basics} basic lands, you will need:")
 print(f"Plains: {plainsnum}")
 print(f"Islands: {islandsnum}")
 print(f"Swamps: {swampsnum}")
