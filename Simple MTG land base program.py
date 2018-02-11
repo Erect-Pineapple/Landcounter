@@ -39,4 +39,4 @@ if basics - landtotal < 0:
     print(f"remove {landtotal - basics} land from a pile.")
 print()
 print("Program made by Erect Pineapple.")
-input()
+input() # Just makes it so that if run on command prompt does not close before results can be read. 
